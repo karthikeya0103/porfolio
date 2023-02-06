@@ -1,0 +1,281 @@
+body{
+    background-color:  #201E20;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #E0A96D;
+    width:15%;
+    height: 830px;
+    margin-left: 86%;
+    margin-top: -16px;
+}
+
+.int{
+    color:  #E0A96D;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.name{
+    color:  #E0A96D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    margin-top: -25px;
+}
+
+#intro{
+    position: absolute;
+    margin: 200px 10%;
+   
+}
+
+#intro p{
+    color: #E0A96D;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+#intro button{
+    border: 1px solid #E0A96D;
+    border-radius: 16px;
+    background-color: #201E20;
+    color: #E0A96D;
+    padding: 5px 30px;
+}
+
+#intro button:hover{
+    background-color: #E0A96D;
+    border: #201E20 1px solid;
+    color: #201E20;
+}
+
+.item{
+    width: 50%;
+    margin: 40px 35%;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:visited{
+    color: #201E20;
+}
+
+.navbar a:hover{
+    color: antiquewhite;
+}
+
+#about{
+    position: absolute;
+    margin-top:1000px ;
+    width: 70%;
+    color: #E0A96D;
+    margin-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about img{
+    box-shadow:  0px 0px 10px #E0A96D;
+    width: 200px;
+}
+
+.aboutb{
+    width: 66%;
+}
+
+.abouta{
+    margin-top: 300px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+#skills{
+    
+    position: absolute;
+    margin: 2500px 10%;
+    width: 70%;
+    height: 500px;
+}
+
+#skills h1{
+    margin-top: 50px;
+    color: #E0A96D;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+
+.set{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fig{
+    margin-top: 50px;
+}
+
+.set2{
+    display: flex;
+    align-items: center;
+}
+
+.one{
+    margin-left:250px ;
+}
+
+.two{
+    margin-left: 100px;
+}
+
+.icon{
+    background-color: #E0A96D;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.fa-brands,.fa-c{
+    margin: 75px 80px;
+    font-size: 50px;
+}
+
+.c{
+    margin:75px 60px;
+    font-size: 50px;
+}
+
+#projects{
+    position: absolute;
+    margin: 4000px 10%;
+    width: 70%;
+}
+
+#projects h1{
+    color: #E0A96D;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+#projects a{
+    text-decoration: none;
+}
+
+.cpro:hover,.cpro1:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.03);
+}
+
+#projects a:visited{
+    color: #E0A96D;
+}
+
+.cpro{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E0A96D;
+}
+
+.cpro img{
+    width: 400px;
+}
+
+.cpro1 video{
+    margin-left:400px ;
+    width: 200px;
+}
+
+.cpro1{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    color: #E0A96D;
+}
+
+#contact{
+    position: absolute;
+    margin: 6000px 10%;
+    color: #E0A96D;
+    width: 70%;
+}
+
+.cont{
+    border-bottom: #E0A96D 2px solid;
+}
+.cont h1{
+    margin: 0 40%;
+}
+
+.contact1{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    width: 20%;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.contact1 a{
+    color: #E0A96D;
+}
+
+.abc{
+    width: 35%;
+}
+
+.contact1 a:visited{
+    color: #E0A96D;
+}
+
+.contact1 a:hover{
+    text-shadow: #E0A96D 0 0 5px;
+    color: #201E20;
+    transition-duration: 0.4s;
+    transform: scale(1.5);
+}
+
+.cont2{
+    display: flex;
+    justify-content: space-around;
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialmedia2{
+    display: flex;
+    align-items: center;
+}
+.fa-twitter{
+    margin-left: 300px;
+}
+
+.fa-github{
+    margin-left: 230px;
+}
+
+.soc{
+    color: #E0A96D;
+}
+
+.soc:visited{
+    color: #E0A96D;
+}
+
+.soc:hover{
+    color: #201E20;
+    transition-duration: 0.2s;
+    transform: scale(1.4);
+    text-shadow: #E0A96D 0 0 10px;
+}
+
