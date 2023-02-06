@@ -11,6 +11,10 @@ body{
     margin-top: -16px;
 }
 
+.navicon:visited{
+    color:#201E20;
+}
+
 .int{
     color:  #E0A96D;
     font-family: 'Courier New', Courier, monospace;
